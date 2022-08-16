@@ -1,0 +1,92 @@
+
+.noofpass{
+    
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.from{
+    
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding-top: 20px;
+    
+}
+.To{
+    
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+
+/* body{
+    background-image: url(./homepage.jpg.jpg);
+    background-size: cover;
+   
+} */
+.submit{
+    size: 20px;
+}
+.ab{
+    font-size: 15px;
+
+}
+.cu{
+    font-size: 15px;
+}
+ /* .office{
+    position: fixed;
+    text-align: center; 
+    top: 20%;
+    right: 30%;
+    font-size: 50px;
+}  
+  .office:hover{
+background-color: rgba(87, 89, 99,0.2);
+border: 2px;
+border-style: solid;
+border-color: black; 
+
+ } 
+.callus{
+     position: fixed; 
+    text-align: center;
+    top: 40%;
+    right: 38%;
+    font-size: 50px;
+    font-weight: bold;
+}
+.callus:hover{
+    background-color: rgba(87, 89, 99,0.2);
+    border: 2px;
+    border-style: solid;
+    border-color: black;
+
+
+} 
+
+
+.eus{
+    position: fixed;
+    text-align: center;
+    top: 80%;
+    right: 30%;
+    font-size: 50px;
+    font-weight: bold;
+ 
+    border: 2px;
+    border-style: solid;
+    border-color: darkgreen;
+    
+}  */
+.dof{
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding-top: 20px;
+    padding-bottom: 30px;
+
+}

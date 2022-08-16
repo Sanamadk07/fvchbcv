@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+     class Bousi {
+  constructor(name) {  // Constructor
+    this.bousiName = name;
+  }
+}
+myBousi = new Bousi("Sristi");
+alert( "Bousi laauni manxe ko name is "+myBousi.bousiName)
+    </script>
+
+
+  <form>
+    1 <input type="radio" id="1">
+    2 <input type="radio" id="2">
+    3 <input type="radio" id="3">
+    <button type="button" onclick="func()"> submit </button>
+  </form>
+  <h2 id="ans"></h2>
+  <script>
+    function func() {
+      if (document.getElementById("1").checked) {
+
+        document.getElementById("ans").innerHTML = "button 1 checked "
+      } else if (document.getElementById("2").checked) {
+
+        document.getElementById("ans").innerHTML = "button 2 checked "
+      }
+    }
+  </script>
+</body>
+
+</html>

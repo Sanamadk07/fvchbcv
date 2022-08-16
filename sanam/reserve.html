@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Gandaki Airline</title>
+    <link rel="stylesheet" href="reserve.css">
+</head>
+
+<body>
+    <script>
+        function submit() {
+
+            // let a = document.getElementById("Plane").value
+            let b = document.getElementById("NumofPassenger").value
+            let c = document.getElementById("dof").value;
+            let d = document.getElementById("add1").value;
+            let e = document.getElementById("add2").value;
+            if (b == "" && c == "" && d == "" && e == "") {
+                alert(" !!Error  Please Enter valid data");
+            } else {
+                alert(" You booked Flight for " + b + " Passenger on date " + c + " from " + d + " to " + e)
+                alert("Please Contact For More Information")
+            }
+        }
+        function reset() {
+
+        }
+
+
+
+
+
+
+    </script>
+     <img class="alogo" src="./aviation_logo-2222.jpg" alt="">
+
+
+
+
+
+
+
+    <!-- ----------NAV BAR---------- -->
+    <nav>
+        <div class="logo"> Gandaki Airline</div>
+        <ul>
+            <li><a href="homepage.html">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="types.html">Services</a></li>
+            <!-- <li><a href="#">urhgs</a></li>  -->
+            <li><a href="contact.html">Contact Us</a></li>
+
+        </ul>
+    
+
+
+    </nav>
+    </header>
+
+    <!-- <footer>  
+        <p>We are also in<br>
+        </p>
+        <div class="ftr">
+        <a href="#" class="fa fa-facebook"></a>
+            <a href="#" class="fa fa-twitter"></a>
+        </div>
+    </footer> -->
+     <!-- ----------NAV BAR END---------- -->
+
+
+
+
+
+
+
+
+
+    
+
+    <div class="navarea">
+        <!-- number of passenger -->
+        <div class="noofpass">
+            <label for="Number Of Seats">Number Of Seats</label>
+            <select name="Passenger" id="NumofPassenger">
+
+
+                <option value=""></option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</options>
+            </select>
+        </div>
+
+        <!-- date of flight -->
+
+        <label for="dof" class="dof">Date of flight:</label>
+        <input type="date" id="dof">
+        </form>
+
+
+
+        <!-- FROM ADDRESS -->
+        <div class="from">
+            <label for="From">From</label>
+            <select name="add1" id="add1">
+
+
+                <option value=""></option>
+                <option value="Kathmandu">Kathmandu</option>
+                <option value="Pokhara">Pokhara</option>
+                <option value="Dhangadi">Dhangadi</option>
+                <option value="Birgunj">Birgunj</option>
+                <option value="Biratnagar">Biratnagar</option>
+                <option value="Solukhumbu">Solukhumbu</options>
+            </select>
+        </div><br>
+
+        <!-- TO Address -->
+        <div class="To"><label for="To">To</label>
+            <select name="add2" id="add2">
+
+
+                <option value=""></option>
+                <option value="Kathmandu">Kathmandu</option>
+                <option value="Pokhara">Pokhara</option>
+                <option value="Dhangadi">Dhangadi</option>
+                <option value="Birgunj">Birgunj</option>
+                <option value="Biratnagar">Biratnagar</option>
+                <option value="Solukhumbu">Solukhumbu</options>
+            </select><br>
+        </div>
+        <div class="submit">
+
+            <button type="submit" onclick="submit()">Book Now</button>
+            <!-- <button type="reset" onclick="reset()">Reset</button>-->
+        </div> 
+
+
+
+
+    </div>
+
+</body>
+
+</html>
